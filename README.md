@@ -1,5 +1,5 @@
 # Form-NLU: Dataset for the Form Language Understanding
-We introduce a new dataset for form structure understanding and key information extraction. This repository will provide detailed baseline model descriptions and experimental setups to ensure our model and experiments are reproducible. As well as we will offer a colab link to show how to download and use our dataset for corresponding tasks. 
+We introduce a new dataset for form structure understanding and key information extraction. This repository will provide detailed baseline model descriptions and experimental setups to ensure our model and experiments are reproducible. As well as we will offer a colab link to show how to download and use our dataset for corresponding tasks.   Currently, we will only provide a few samples of our Form-NLU. We will update the GitHub and colab tutorial to ensure our model and dataset is public available after our paper is published. 
 ## Baseline Model Description
 ### Baseline Description
 Here we introduce the baselines adopted in our project.
