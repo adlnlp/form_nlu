@@ -15,7 +15,15 @@ Here we introduce the baselines adopted in our project.
 
 **M4C**: we slightly change the input features and output layers of the original M4C models to suit Task B demands. Firstly, OCR-extracted text representations are replaced by BERT $[CLS]$ token features, fed into the transformer encoder with key text content and segment visual features. Additionally, we use a pointer network to replace the originally adopted dynamic pointer network on the top of the transformer decoder to predict the index of the corresponding value. Except for the above two aspects, we utilize the same transformer encoder-decoder structure as the original M4C model.
 ## Multi-aspect Features
+**Visual Feature** (V): is used to numerically represent the appearance features of each input RoI by using 2048-\textit{d} vectors extracted from the Res5-layer of ResNet-101 pretrained on ImageNet \cite{he2016deep}. 
 
+**Textual Features** (S): aims to represent the semantic meaning of RoI's text content (acquired from OCR or PDFminer). We extract \textit{[CLS]} token representations by feeding the tokenized text into pretrained \textit{BERT-base-uncased} to generate a 768-\textit{d} textual feature for each RoI. 
+
+**Positional Features** (P): aims to comprehensively physical layout structure of form appearance. It is normalized bounding box coordinates $(\frac{x_i}{W},\frac{y_i}{H},\frac{w_i}{W},\frac{h_i}{H})$ of each input RoI where $W$ and $H$ are width and height of corresponding input page. 
+
+**Density Features** (D): could effectively enhance segment representations which have been demonstrated by \citet{docgcn}. We use normalized number of characters $norm\_num^{char}_i= \frac{num^{char}_i}{max(num^{char})}$, where $max(num^{char})$ represents the maximum number of characters among all segments. Additionally, we also use $den^{char}_i = \frac{num^{char}_i}{(w_i \times h_i)}$ to represent the text density which is concatenated with $norm\_num^{char}_i$ to represent $Den_i$ of i-th input $r_i$.
+
+**Gap Distance Features** (G): aims to represent the spatial relationship between neighbouring entities, which is the gap distance between $r_i$ with four directions nearest RoIs (up, down, left, right), represented by $G_i = [gd_i^{u}, gd_i^{d}, gd_i^l,gd_i^r]$. Consequently, similar to $P$, we also use $W$ and $H$ to get the normalized $G_i^{norm} = [\frac{gd_i^{u}}{H}, \frac{gd_i^{d}}{H}, \frac{gd_i^l}{W},\frac{gd_i^r}{W}]$.
 ## Implementation Details
 
 ## Dataset Loading and Samples
