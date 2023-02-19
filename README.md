@@ -29,4 +29,4 @@ For Task A, we fine-tune Faster-RCNN and Mask-RCNN models with two backbones\foo
 
 Regarding Task B, we employ various approaches to encode the vision and language features. Firstly, all Task B adopted baselines use pretrained BERT to encode key textual content. Moreover, for the visual aspect, VisualBERT, LXMERT, and M4C models utilize 2048-d features extracted from the Res5 layer of ResNet101. The maximum number of input key text tokens and the number of segments on each page are all defined as 50 and 41, respectively. Task A and B experiments are conducted on 51 GB Tesla V100-SXM2 with CUDA11.2.
 ## Dataset Loading and Samples
-We provide an [official tutorial](https://colab.research.google.com/drive/1m399VuMHU3zKvXQdtZAWAediPUE8hhQc) via colab to ensure researchers in both academic and industrial areas can access our Form-NLU.
+We provide an [colab notebook](https://colab.research.google.com/drive/1m399VuMHU3zKvXQdtZAWAediPUE8hhQc) via colab to ensure researchers in both academic and industrial areas can access our Form-NLU.
