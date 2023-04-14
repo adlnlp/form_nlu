@@ -5,6 +5,7 @@ Full dataset will be released during SIGIR conference week (23-27, July, 2023)
 
 This repository contains code for the paper [Form-NLU: Dataset for the Form Language Understanding](https://arxiv.org/abs/2304.01577)
 __<p align="center">Yihao Ding, Siqu Long, Jiabin Huang, Kaixun Ren, Xingxiang Luo, Hyunsuk Chung, Soyeon Caren Han</p>__
+__<p align="center">University of Sydney and University of Western Australia</p>__
 <p align="center"><img src="images/task_definition_v2.png" width="750" /></p>
 
 We introduce a new dataset for form structure understanding and key information extraction. This repository will provide detailed baseline model descriptions and experimental setups to ensure our model and experiments are reproducible. As well as we will offer a colab link to show how to download and use our dataset for corresponding tasks.   Currently, we will only provide a few samples of our Form-NLU. We will update the GitHub and a [colab tutorial](https://colab.research.google.com/drive/1m399VuMHU3zKvXQdtZAWAediPUE8hhQc) to ensure our model and dataset is public available after our paper is published. 
