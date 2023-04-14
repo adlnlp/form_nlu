@@ -1,6 +1,7 @@
 # Form-NLU: Dataset for the Form Language Understanding
+
+Full dataset will be released during SIGIR conference week (23-27, July, 2023)
 ## To appear at SIGIR 2023
-Full dataset will be released during conference week (23-27, July, 2023)
 
 This repository contains code for the paper [Form-NLU: Dataset for the Form Language Understanding](https://arxiv.org/abs/2304.01577)
 __<p align="center">Yihao Ding, Siqu Long, Jiabin Huang, Kaixun Ren, Xingxiang Luo, Hyunsuk Chung, Soyeon Caren Han</p>__
