@@ -36,9 +36,4 @@ We conduct a transfer learning case study on the FUNSD dataset. We manually sele
 We provide an [colab notebook](https://colab.research.google.com/drive/1m399VuMHU3zKvXQdtZAWAediPUE8hhQc) to ensure researchers in both academic and industrial areas can access our Form-NLU.
 
 ## Citation
-@article{ding2023form,
-  title={Form-NLU: Dataset for the Form Language Understanding},
-  author={Ding, Yihao and Long, Siqu and Huang, Jiabin and Ren, Kaixuan and Luo, Xingxiang and Chung, Hyunsuk and Han, Soyeon Caren},
-  journal={arXiv preprint arXiv:2304.01577},
-  year={2023}
-}
+
