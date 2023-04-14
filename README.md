@@ -34,3 +34,11 @@ Regarding Task B, we employ various approaches to encode the vision and language
 We conduct a transfer learning case study on the FUNSD dataset. We manually select 200 valuable question-answer pairs from the original FUNSD dataset. The FUNSD subset of the case study will be released after this paper is accepted. Then we use the trained model on our dataset to test whether the model can predict the correct answer of input question-answer pairs of the FUNSD subset. When we feed the QA pair into the model, we replace the original question text with fixed keys used in Task B. If any key in 12 key sets can predict the correct question answer, we will count this sample as a True Positive sample for calculating accuracy.
 ## Dataset Loading and Samples
 We provide an [colab notebook](https://colab.research.google.com/drive/1m399VuMHU3zKvXQdtZAWAediPUE8hhQc) to ensure researchers in both academic and industrial areas can access our Form-NLU.
+
+## Citation
+@article{ding2023form,
+  title={Form-NLU: Dataset for the Form Language Understanding},
+  author={Ding, Yihao and Long, Siqu and Huang, Jiabin and Ren, Kaixuan and Luo, Xingxiang and Chung, Hyunsuk and Han, Soyeon Caren},
+  journal={arXiv preprint arXiv:2304.01577},
+  year={2023}
+}
