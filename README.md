@@ -1,7 +1,26 @@
 # Form-NLU: Dataset for the Form Language Understanding
 
-Full dataset will be released during SIGIR conference week (23-27, July, 2023)
-## To appear at SIGIR 2023
+We are excited to announce that the official release of our entire dataset, complete with tutorials and code, is scheduled for September 2023. However, if you are interested in accessing the dataset before the official release, we are providing an opportunity for early access.
+
+How to get Early Access?
+Email Us: Send an email to [yihao.ding@uwa.edu.au] with the following details:
+
+**Organization**: Name of your organization.
+**Intention**: Briefly describe why you want access to the dataset and how you plan to use it.
+Dataset Link: Once we receive your email and evaluate your request, we will provide you with a link to access the dataset.
+
+Why Early Access?
+Early access will allow you to start working with the dataset ahead of time and provide us with valuable feedback that can help us improve the dataset and associated resources before the official release.
+
+Feedback
+We encourage early-access users to share their feedback, suggestions, or any issues encountered using the dataset. Please email your feedback to [yihao.ding@uwa.edu.au].
+
+Note
+The dataset provided during early access may be subject to changes and updates before the official release. Please keep this in mind while working with the dataset.
+
+Thank you for your interest and support! We look forward to your contributions in making this dataset better.
+
+
 
 This repository contains code for the paper [Form-NLU: Dataset for the Form Language Understanding](https://arxiv.org/abs/2304.01577)
 __<p align="center">Yihao Ding, Siqu Long, Jiabin Huang, Kaixun Ren, Xingxiang Luo, Hyunsuk Chung, Soyeon Caren Han</p>__
@@ -21,7 +40,7 @@ Here we introduce the baselines adopted in our project.
 **M4C**: a multimodal transformer encoder-decoder architecture designed for visual question answering of which inputs contain representations of the question, OCR tokens, and detected image object features for iteratively decoding the answers from input OCR tokens or fixed answer space. 
 
 ### Baseline Setup
-**VisualBERT, LXMERT**: we feed the key text content and extract 2048-d visual features of each segment from the Res5 layer of ResNet101 into pretrain vision-language-models to learn the relation between segments and key contents. The enhanced visual representation of each segment will be fed into a pointer network to acquire a score for each segment. A softmax function is applied to predict the counterpart value index of the input key.
+**VisualBERT, LXMERT**: we feed the key text content and extract 2048-d visual features of each segment from the Res5 layer of ResNet101 into pretrain vision-language models to learn the relation between segments and key contents. The enhanced visual representation of each segment will be fed into a pointer network to acquire a score for each segment. A softmax function is applied to predict the counterpart value index of the input key.
 
 **M4C**: we slightly change the input features and output layers of the original M4C models to suit Task B demands. Firstly, OCR-extracted text representations are replaced by BERT *[CLS]* token features, fed into the transformer encoder with key text content and segment visual features. Additionally, we use a pointer network to replace the originally adopted dynamic pointer network on the top of the transformer decoder to predict the index of the corresponding value. Except for the above two aspects, we utilize the same transformer encoder-decoder structure as the original M4C model.
 ## Multi-aspect Features
