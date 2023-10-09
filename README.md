@@ -31,7 +31,7 @@ We introduce a new dataset for form structure understanding and key information 
 
 ## Link to the Datasets
 ### Task A Dataset Link
-For layout analysis, we provide the annotated coco files for the training and validation dataset with the document images. Please click [here](https://drive.google.com/file/d/1tVFb9ciMaQJ4hvmTnY53A59Z8qoddhCv/view?usp=sharing) to get the dataset for task A.
+For layout analysis, we provide the annotated coco files for the training and validation dataset with the document images. Please click [here](https://drive.google.com/file/d/1tVFb9ciMaQJ4hvmTnY53A59Z8qoddhCv/view?usp=drive_link) to get the dataset for task A.
 ## Baseline Model Description
 ### Baseline Description
 Here we introduce the baselines adopted in our project.
