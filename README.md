@@ -1,6 +1,6 @@
 # Form-NLU: Dataset for the Form Language Understanding
 
-We are excited to announce that the official release of our entire dataset, complete with tutorials and code, is scheduled for September 2023. However, if you are interested in accessing the dataset before the official release, we are providing an opportunity for early access.
+We are excited to announce that the official release of our entire dataset, complete with tutorials and code, is scheduled for November 2023. However, if you are interested in accessing the dataset before the official release, we are providing an opportunity for early access.
 
 How to get Early Access?
 Email Us: Send an email to [yihao.ding@uwa.edu.au] with the following details:
