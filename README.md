@@ -1,26 +1,5 @@
 # Form-NLU: Dataset for the Form Language Understanding
 
-We are excited to announce that the official release of our entire dataset, complete with tutorials and code, is scheduled for November 2023. However, if you are interested in accessing the dataset before the official release, we are providing an opportunity for early access.
-
-How to get Early Access?
-Email Us: Send an email to [yihao.ding@uwa.edu.au] with the following details:
-
-**Organization**: Name of your organization.
-**Intention**: Briefly describe why you want access to the dataset and how you plan to use it.
-Dataset Link: Once we receive your email and evaluate your request, we will provide you with a link to access the dataset.
-
-Why Early Access?
-Early access will allow you to start working with the dataset ahead of time and provide us with valuable feedback that can help us improve the dataset and associated resources before the official release.
-
-Feedback
-We encourage early-access users to share their feedback, suggestions, or any issues encountered using the dataset. Please email your feedback to [yihao.ding@uwa.edu.au].
-
-Note
-The dataset provided during early access may be subject to changes and updates before the official release. Please keep this in mind while working with the dataset.
-
-Thank you for your interest and support! We look forward to your contributions in making this dataset better.
-
-
 ## Form-NLU Description
 This repository contains code for the paper [Form-NLU: Dataset for the Form Language Understanding](https://arxiv.org/abs/2304.01577)
 __<p align="center">Yihao Ding, Siqu Long, Jiabin Huang, Kaixun Ren, Xingxiang Luo, Hyunsuk Chung, Soyeon Caren Han</p>__
