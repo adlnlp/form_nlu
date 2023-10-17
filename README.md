@@ -27,12 +27,15 @@ __<p align="center">Yihao Ding, Siqu Long, Jiabin Huang, Kaixun Ren, Xingxiang L
 __<p align="center">University of Sydney and University of Western Australia</p>__
 <p align="center"><img src="images/task_definition_v2.png" width="750" /></p>
 
-We introduce a new dataset for form structure understanding and key information extraction. This repository will provide detailed baseline model descriptions and experimental setups to ensure our model and experiments are reproducible. As well as we will offer a colab link to show how to download and use our dataset for corresponding tasks.   Currently, we will only provide a few samples of our Form-NLU. We will update the GitHub and a [colab tutorial](https://colab.research.google.com/drive/1m399VuMHU3zKvXQdtZAWAediPUE8hhQc) to ensure our model and dataset is public available after our paper is published. 
+We introduce a new dataset for form structure understanding and key information extraction. This repository will provide detailed baseline model descriptions and experimental setups to ensure our model and experiments are reproducible. As well as we will offer a colab link to show how to download and use our dataset for corresponding tasks.   Currently, we will only provide a few samples of our Form-NLU. We will update the GitHub and a [colab tutorial](https://colab.research.google.com/drive/1m399VuMHU3zKvXQdtZAWAediPUE8hhQc) to ensure our model and dataset are publicly available after our paper is published. 
 
 ## Link to the Datasets
 ### Task A Dataset Link
 For layout analysis, we provide the annotated coco files for the training and validation dataset with the document images. Please click [here](https://drive.google.com/file/d/1tVFb9ciMaQJ4hvmTnY53A59Z8qoddhCv/view?usp=drive_link) to get the dataset for task A.
-As we will hold a competition on this dataset, we will only provide the images for three test sets and release the human annotation results after the competition. 
+As we will hold a competition on this dataset, we will only provide the images for three test sets and release the ground truth annotation results after the competition round. To ensure users can get the test result, we will launch the competition website soon to provide the user can upload their prediction results to get the evaluation results. 
+
+### Task B Dataset Link
+
 ## Baseline Model Description
 ### Baseline Description
 Here we introduce the baselines adopted in our project.
