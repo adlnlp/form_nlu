@@ -57,9 +57,7 @@ We provide an [colab notebook](https://colab.research.google.com/drive/1m399VuMH
   pages={2807--2816},
   year={2023}
 }
-Luca Cagliero, Politecnico di Torino
-Prof. Seong-Bae Park, Kyung Hee University
-Prof. Prasenjit Mitra, The Pennsy
+
 @inproceedings{vrdiu2024form,
   title={The Second Competition on Visually Rich Document Intelligence and Understanding},
   author={Han, Soyeon Caren and Ding, Yihao and Li, Yan and Cagliero, Luca and Park, Seong-Bae and Mitra, Prasenjit},
