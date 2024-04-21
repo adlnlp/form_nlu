@@ -3,7 +3,7 @@
 ## Form-NLU Description
 This repository contains code for the paper [Form-NLU: Dataset for the Form Language Understanding](https://arxiv.org/abs/2304.01577)
 __<p align="center">Yihao Ding, Siqu Long, Jiabin Huang, Kaixun Ren, Xingxiang Luo, Hyunsuk Chung, Soyeon Caren Han</p>__
-__<p align="center"> <a href='https://www.example.com'>Track A</a> <a href='https://www.example.com'>Track B</a> </p>__
+__<p align="center"> <a href='https://www.kaggle.com/competitions/dociu2024-form-nlu?rvi=1'>Track A</a> <a href='https://www.kaggle.com/competitions/dociu-form-nlu-2024-track-2/data'>Track B</a> </p>__
 __<p align="center">University of Sydney and University of Western Australia</p>__
 <p align="center"><img src="images/task_definition_v2.png" width="750" /></p>
 
@@ -56,5 +56,14 @@ We provide an [colab notebook](https://colab.research.google.com/drive/1m399VuMH
   booktitle={Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   pages={2807--2816},
   year={2023}
+}
+Luca Cagliero, Politecnico di Torino
+Prof. Seong-Bae Park, Kyung Hee University
+Prof. Prasenjit Mitra, The Pennsy
+@inproceedings{vrdiu2024form,
+  title={The Second Competition on Visually Rich Document Intelligence and Understanding},
+  author={Han, Soyeon Caren and Ding, Yihao and Li, Yan and Cagliero, Luca and Park, Seong-Bae and Mitra, Prasenjit},
+  booktitle={Proceedings of the 33rd International Joint Conference on Artificial Intelligence},
+  year={2024}
 }
 ```
