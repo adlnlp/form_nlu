@@ -3,7 +3,9 @@
 ## Form-NLU Description
 This repository contains code for the paper [Form-NLU: Dataset for the Form Language Understanding](https://arxiv.org/abs/2304.01577)
 __<p align="center">Yihao Ding, Siqu Long, Jiabin Huang, Kaixun Ren, Xingxiang Luo, Hyunsuk Chung, Soyeon Caren Han</p>__
-__<p align="center"> We hold **The Second Competition on Visually Rich Document Intelligence and Understanding (VRDIU)** using this dataset in conjunction with the **33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)** in **Jeju, Korea**. The competition consists of <a href='https://www.kaggle.com/competitions/dociu2024-form-nlu?rvi=1'>Track A</a> and <a href='https://www.kaggle.com/competitions/dociu-form-nlu-2024-track-2/data'>Track B</a> </p>__
+
+We hold **The Second Competition on Visually Rich Document Intelligence and Understanding (VRDIU)** using this dataset in conjunction with the **33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)** in **Jeju, Korea**. The competition consists of <a href='https://www.kaggle.com/competitions/dociu2024-form-nlu?rvi=1'>Track A</a> and <a href='https://www.kaggle.com/competitions/dociu-form-nlu-2024-track-2/data'>Track B</a>.
+
 __<p align="center">University of Sydney and University of Western Australia</p>__
 <p align="center"><img src="images/task_definition_v2.png" width="750" /></p>
 
@@ -15,6 +17,7 @@ For layout analysis, we provide the annotated coco files for the training and va
 As we will hold a competition on this dataset, we will only provide the images for three test sets and release the ground truth annotation results after the competition round. To ensure users can get the test result, we will launch the competition website soon to provide the user can upload their prediction results to get the evaluation results. 
 
 ### Task B Dataset Link
+Please refer to our competition.
 
 ## Baseline Model Description
 ### Baseline Description
