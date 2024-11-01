@@ -7,7 +7,7 @@ __<p align="center">Yihao Ding, Siqu Long, Jiabin Huang, Kaixun Ren, Xingxiang L
 We hold **The Second Competition on Visually Rich Document Intelligence and Understanding (VRDIU)** using this dataset in conjunction with the **33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)** in **Jeju, Korea**. The competition consists of <a href='https://www.kaggle.com/competitions/dociu2024-form-nlu?rvi=1'>Track A</a> and <a href='https://www.kaggle.com/competitions/dociu-form-nlu-2024-track-2/data'>Track B</a>.
 
 __<p align="center">University of Sydney and University of Western Australia</p>__
-<p align="center"><img src="images/task_definition_v2.png" width="750" /></p>
+<p align="center"><img src="images/task_definition_v2.jpg" width="750" /></p>
 
 We introduce a new dataset to understand form structure and extract key information. This repository will provide detailed baseline model descriptions and experimental setups to ensure our model and experiments are reproducible. As well as we will offer a colab link to show how to download and use our dataset for corresponding tasks.   Currently, we will only provide a few samples of our Form-NLU. We will update the GitHub and a [colab tutorial](https://colab.research.google.com/drive/1m399VuMHU3zKvXQdtZAWAediPUE8hhQc) to ensure our model and dataset are publicly available after our paper is published. 
 
