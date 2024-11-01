@@ -9,12 +9,12 @@ We hold **The Second Competition on Visually Rich Document Intelligence and Unde
 __<p align="center">University of Sydney and University of Western Australia</p>__
 <p align="center"><img src="images/task_definition_v2.png" width="750" /></p>
 
-We introduce a new dataset for form structure understanding and key information extraction. This repository will provide detailed baseline model descriptions and experimental setups to ensure our model and experiments are reproducible. As well as we will offer a colab link to show how to download and use our dataset for corresponding tasks.   Currently, we will only provide a few samples of our Form-NLU. We will update the GitHub and a [colab tutorial](https://colab.research.google.com/drive/1m399VuMHU3zKvXQdtZAWAediPUE8hhQc) to ensure our model and dataset are publicly available after our paper is published. 
+We introduce a new dataset to understand form structure and extract key information. This repository will provide detailed baseline model descriptions and experimental setups to ensure our model and experiments are reproducible. As well as we will offer a colab link to show how to download and use our dataset for corresponding tasks.   Currently, we will only provide a few samples of our Form-NLU. We will update the GitHub and a [colab tutorial](https://colab.research.google.com/drive/1m399VuMHU3zKvXQdtZAWAediPUE8hhQc) to ensure our model and dataset are publicly available after our paper is published. 
 
 ## Link to the Datasets
 ### Task A Dataset Link
 For layout analysis, we provide the annotated coco files for the training and validation dataset with the document images. Please click [here](https://drive.google.com/file/d/1tVFb9ciMaQJ4hvmTnY53A59Z8qoddhCv/view?usp=drive_link) to get the dataset for task A.
-As we will hold a competition on this dataset, we will only provide the images for three test sets and release the ground truth annotation results after the competition round. To ensure users can get the test result, we will launch the competition website soon to provide the user can upload their prediction results to get the evaluation results. 
+As we will hold a competition on this dataset, we will only provide the images for three test sets and release the ground truth annotation results after the competition round. To ensure users can get the test results, we will launch the competition website soon to provide the user can upload their prediction results to get the evaluation results. 
 
 ### Task B Dataset Link
 Please refer to our competition.
@@ -25,7 +25,7 @@ Here we introduce the baselines adopted in our project.
 
 **VisualBERT**: is a transformer-based pretrained model which can jointly learn the contextual vision and language representations of input text and image regions.
 
-**LXMERT**: proposes a three transformer encoder-based pretrained vision language model on increasing the ability to learn vision and language semantic connections.
+**LXMERT**: proposes a three-transformer encoder-based pretrained vision language model to increase the ability to learn vision and language semantic connections.
 
 **M4C**: a multimodal transformer encoder-decoder architecture designed for visual question answering of which inputs contain representations of the question, OCR tokens, and detected image object features for iteratively decoding the answers from input OCR tokens or fixed answer space. 
 
